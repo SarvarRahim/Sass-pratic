@@ -4,13 +4,37 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Project</title>
-  <link rel="stylesheet" href="css/normalize.min.css">
-  <link rel="stylesheet" href="css/styles.css">
+  <title>Minimolist</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="scss/main.css">
+  <link rel="stylesheet" href="scss/normalize.scss">
+  <link rel="stylesheet" href="scss/main.scss">
 </head>
 <body>
+  <header class="site-header">
+    <div class="container">
+      <div class="site-header__content">
+        <a class="site-header__link logo" href="index.html">
+          <img class="logo-site" src="img/logo-site-porfolio.svg" alt="logo site" width="60" height="32">
+        </a>
 
+        <button class="site-header__btn js-site-header__btn" type="button" aria-label="site header navigation"></button>
 
-  <script src="js/main.js"></script>
+        <nav class="sitenav">
+          <ul class="sitenav__list">
+            <li class="sitenav__item sitenav__item--active">
+              <a class="sitenav__link" href="#">Home</a>
+            </li>
+            <li class="sitenav__item">
+              <a class="sitenav__link" href="#">Porfolio</a>
+            </li>
+            <li class="sitenav__item">
+              <a class="sitenav__link" href="contact.html">Contact me</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
 </body>
 </html>
